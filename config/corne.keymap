@@ -34,10 +34,10 @@
 
             display-name = "Base";
             bindings = <
-&as LS(Q) Q  &as LS(W) W  &as LS(E) E  &as LS(R) R       &as LS(T) T             &as LS(Y) Y  &as LS(U) U      &as LS(I) I   &as LS(O) O  &as LS(P) P
-&as LS(A) A  &as LS(S) S  &as LS(D) D  &as LS(F) F       &as LS(G) G             &as LS(H) H  &as LS(J) J      &as LS(K) K   &as LS(L) L  &as LS(SQT) SQT
-&as LS(Z) Z  &as LS(X) X  &as LS(C) C  &as LS(V) V       &as LS(B) B             &as LS(N) N  &as LS(M) M      &kp QUESTION  &kp COMMA    &as LS(DOT) DOT
-                                       &kp LEFT_COMMAND  &mo 1        &kp SPACE               &as LS(RET) RET  &mo 2         &kp BSPC
+&as LS(Q) Q  &as LS(W) W  &as LS(E) E  &as LS(R) R  &as LS(T) T             &as LS(Y) Y  &as LS(U) U      &as LS(I) I   &as LS(O) O  &as LS(P) P
+&as LS(A) A  &as LS(S) S  &as LS(D) D  &as LS(F) F  &as LS(G) G             &as LS(H) H  &as LS(J) J      &as LS(K) K   &as LS(L) L  &as LS(SQT) SQT
+&as LS(Z) Z  &as LS(X) X  &as LS(C) C  &as LS(V) V  &as LS(B) B             &as LS(N) N  &as LS(M) M      &kp QUESTION  &kp COMMA    &as LS(DOT) DOT
+                                       &kp LCTRL    &mo 1        &kp SPACE               &as LS(RET) RET  &mo 2         &kp BSPC
             >;
         };
 
@@ -69,7 +69,7 @@
 &as LS(N1) N1        &as LS(N2) N2        &as LS(N3) N3  &as LS(N4) N4        &as LS(N5) N5             &as LS(N6) N6  &as LS(N7) N7    &as LS(N8) N8  &as LS(N9) N9      &as LS(N0) N0
 &as LS(MINUS) MINUS  &as LS(EQUAL) EQUAL  &kp LBRC       &kp LBKT             &kp LPAR                  &kp RPAR       &kp RBKT         &kp RBRC       &as LS(FSLH) FSLH  &as LS(BSLH) BSLH
 &as LS(GRAVE) GRAVE  &trans               &trans         &as LS(COMMA) COMMA  &kp COLON                 &kp SEMI       &as LS(DOT) DOT  &kp LCTRL      &kp RALT           &trans
-                                                         &kp LGUI             &kp ESC        &kp SPACE                 &as LS(RET) RET  &trans         &kp TAB
+                                                         &kp LCTRL            &kp ESC        &kp SPACE                 &as LS(RET) RET  &trans         &kp TAB
             >;
         };
 
